@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/style.css">
 </head>
@@ -11,16 +12,19 @@
 <body>
 
     <!-- nav started -->
-    <nav>
-
-        <ul class="navbar">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="">RESUME</a></li>
-            <li><a href=""> ABOUT</a></li>
-            <li><a href="">CONTACT</a></li>
-
-        </ul>
+    <nav id="navbar">
+        <div class="nav">
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- nav ended -->
@@ -45,7 +49,7 @@
     <section id="portfolio">
         
         <div class="feature">
-           <h1>Featured Portfolio</h1>
+           <h1>Featured <strong>Portfolio  </strong> </h1>
 
       
         <div class="portfolio-menu">
@@ -95,7 +99,280 @@
           
 
     </section>
+    <!-- portfolio ended -->
 
+    <!-- resume start -->
+    <section id="resume">
+        <div class="resumeword"><h1>My <strong>Resume</strong></h1></div>
+    
+ 
+    
+    <div class="columncontent">
+        <div class="column">
+        <h2>Education</h2>
+        <div class="resumecard">
+            <p class="date">March 2013 - Present</p>
+            <h3>Masteral in Information Technology</h3>
+            <p class="description">
+              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">New York University</p>
+        </div>
+        <div class="resumecard">
+    <p class="date">March 2013 - Present Deacember.</p>
+            <h3>Masteral in Information Technology</h3>
+            <p class="description">
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">New York University</p>
+        </div>
+        <div class="resumecard">
+    <p class="date"> March 2013 - Present</p>
+            <h3>Masteral in Information Technology</h3>
+            <p class="description">
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">New York University</p>
+        </div>
+        <div class="resumecard">
+    <p class="date">March 2013 - Present Deacember.</p>
+            <h3>Masteral in Information Technology</h3>
+            <p class="description">
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">New York University</p>
+        </div>
+    </div>
+    <div class="column">
+        <h2>Experience</h2>
+        <div class="resumecard"><p class="date">March 2013 - Present</p>
+            <h3>Lead Product Designer</h3>
+            <p class="description">
+              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">Github</p></div>
+        <div class="resumecard"><p class="date">March 2013 - Present</p>
+            <h3>Lead Product Designer</h3>
+            <p class="description">
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">Facebook</p></div>
+        <div class="resumecard"><p class="date"> March 2013 - Present
+        </p>
+            <h3>Lead Product Designer</h3>
+            <p class="description">
+                Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">Twitter</p></div>
+        <div class="resumecard"><p class="date">March 2013 - Present</p>
+            <h3>Lead Product Designer</h3>
+            <p class="description">
+              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
+            </p>
+            <p class="location">Shopify</p></div>
+    </div>
+    </div>
+    </section>
+    <!-- resume ended -->
+<!-- about start -->
+<section id="about">
+    <div class="aboutbox">
+        <div class="aboutimg">
+            <img src="	https://preview.colorlib.com/theme/rezume/images/image_1.jpg" alt="">
+        </div>
+        <div class="abouttextbox">
+        <div class="aboutheader">
+            <h1>About <strong>Me</strong></h1>
+        </div>
+        <div class="abouttext">
+            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. <br><br>
+
+                A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        </div>
+        <div class="aboutbtn">
+            <button class="btn">hire me</button>
+            <button class="btn2">Download CV</button>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- about end -->
+
+<!-- testimonial start -->
+<section id="testimonial">
+    <h1>Client <strong>Testimonial</strong></h1>
+    <div class="testimonial-row">
+      <div class="testimonial">
+        <img src="https://preview.colorlib.com/theme/rezume/images/person_1.jpg" alt="User Photo" class="avatar">
+        <div class="testimonial-content">
+          <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+          <p class="author">— <em>Ethan McCown</em>, CEO <span class="company">XYZ Inc.</span></p>
+        </div>
+      </div>
+  
+      <div class="testimonial">
+        <img src="https://preview.colorlib.com/theme/rezume/images/person_2.jpg" alt="User Photo" class="avatar">
+        <div class="testimonial-content">
+          <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+          <p class="author">— <em>Craig Gowen</em>, CEO <span class="company">XYZ Inc.</span></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="testimonial-row">
+      <div class="testimonial">
+        <img src="https://preview.colorlib.com/theme/rezume/images/person_3.jpg" alt="User Photo" class="avatar">
+        <div class="testimonial-content">
+          <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+          <p class="author">— <em>Ethan McCown</em>, CEO <span class="company">XYZ Inc.</span></p>
+        </div>
+      </div>
+  
+      <div class="testimonial">
+        <img src="https://preview.colorlib.com/theme/rezume/images/person_4.jpg" alt="User Photo" class="avatar">
+        <div class="testimonial-content">
+          <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+          <p class="author">— <em>Craig Gowen</em>, CEO <span class="company">XYZ Inc.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial end -->
+  <!-- service start -->
+  <section id="service">
+    <div class="servivesbox">
+      <div class="servicesheader">
+        <h1>My <strong>Services</strong></h1>
+      </div>
+      <div class="servicescontent">
+        <div class="servicesitem">
+          <div class="icon"><i class="fa-regular fa-file-lines"></i></div>
+          <div class="servicesitemheader"><h2>Web Design</h2></div>
+  <div class="servicesitemtext">
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+    <h4>Learn more ></h4>
+  </div>
+  
+  
+        </div>
+        <div class="servicesitem short"><div class="icon"><i class="fa-solid fa-tv"></i></div>
+        <div class="servicesitemheader"><h2>Search Engine Optimization</h2></div>
+  <div class="servicesitemtext">
+    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+    <h4>Learn more ></h4>
+  </div>
+      </div>
+        <div class="servicesitem"><div class="icon"><i class="fa-solid fa-video"></i></div>
+        <div class="servicesitemheader"><h2>Video Editing</h2></div>
+  <div class="servicesitemtext">
+    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+    <h4>Learn more ></h4>
+  </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- service end -->
+   <!-- blog start -->
+
+  <section id="blog">
+    <div class="blog-card">
+      <div class="blog-image">
+        <img src="https://preview.colorlib.com/theme/rezume/images/post_1.jpg
+        " alt="Blog Image">
+      </div>
+      <div class="blog-content">
+        <h3>Creative Product Designer From Facebook</h3>
+        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        <div class="blog-meta">
+          <span><i class="fa-regular fa-calendar"></i> Aug 7, 2018</span>
+          <span><i class="fa-regular fa-comments"></i> 5 Comments</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="blog-card">
+      <div class="blog-image">
+        <img src="https://preview.colorlib.com/theme/rezume/images/post_2.jpg" alt="Blog Image">
+      </div>
+      <div class="blog-content">
+        <h3>Creative Product Designer From Facebook</h3>
+        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        <div class="blog-meta">
+          <span><i class="fa-regular fa-calendar"></i> Aug 7, 2018</span>
+          <span><i class="fa-regular fa-comments"></i> 5 Comments</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="blog-card">
+      <div class="blog-image">
+        <img src="https://preview.colorlib.com/theme/rezume/images/post_3.jpg" alt="Blog Image">
+      </div>
+      <div class="blog-content">
+        <h3>Creative Product Designer From Facebook</h3>
+        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        <div class="blog-meta">
+          <span><i class="fa-regular fa-calendar"></i> Aug 7, 2018</span>
+          <span><i class="fa-regular fa-comments"></i> 5 Comments</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog end -->
+   <!-- contact start -->
+   <section id="contact">
+    <div class="contactheader"><h1>Get <strong>In Touch</strong></h1></div>
+    <div class="contactbox">
+      <div class="formbox">
+        <form action class="site-form">
+          <h3>Get In Touch</h3>
+          <div class="name">
+            <input type="text" placeholder="Name" required>
+          </div>
+          <div class="email">
+            <input type="email" placeholder="Email" required>
+          </div>
+          <div class="phone">
+            <input type="text" placeholder="Phone" required>
+          </div>
+          <div class="message">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message">Write a message</textarea>
+          </div>
+          <div class="formbtn">
+            <button>send message</button>
+          </div>
+        </form>
+      </div>
+      <div class="contactdetail">
+        <h3>My Contact Detail</h3>
+        <ul class="detail">
+          <li><span cl>EMAIL</span><br>site@gmail.com</li>
+          <li><span>FAX</span><br>+30 976 1382 9922</li>
+          <li><span>PHONE</span><br>+30 976 1382 9921</li>
+          <li><span>ADDRESS</span><br>San Francisco, CA <br>
+            4th Floor8 Lower <br>
+            San Francisco street, M1 50F</li>
+        </ul>
+      </div>
+    </div>
+   </section>
+   <!-- contact end -->
+    <!-- footer start -->
+    <section id="footer">
+        <div class="footerp">
+        <p>Copyright © 2025 All rights reserved | This template is made with  by Colorlib</p>
+      </div>
+      <div class="footerlinks">
+        <div class="link"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="link"><i class="fa-brands fa-twitter"></i></div>
+        <div class="link"><i class="fa-brands fa-instagram"></i></div>
+        <div class="link"><i class="fa-brands fa-linkedin"></i></div>
+        <div class="link"><i class="fa-brands fa-vimeo-v"></i></div>
+      
+      </div>
+       </section>
+      <!-- footer end -->
     <script src="/assets/index.js"></script>
 </body>
 

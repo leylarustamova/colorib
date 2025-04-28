@@ -1,0 +1,76 @@
+#resume {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: #222222;
+  
+    .resumeword {
+      text-align: center;
+      padding: 70px;
+  
+      h1 {
+       font-weight: 400;
+       color: white;
+       font-size: 2rem;
+      }
+    }
+  
+   
+  
+    .columncontent {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .column {
+        min-width: 280px;
+        max-width: 500px;
+
+        h2{
+            color: white;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+  
+        .resumecard {
+          background-color: #2c2c2c;
+          padding: 30px;
+          margin-bottom: 25px;
+          border-radius: 8px;
+
+        
+  
+          h3 {
+            font-size: 18px;
+            color: #b8d43d;
+            margin-bottom: 10px;
+            font-weight: 200;
+          }
+          p{
+            font-size: 20px;
+          }
+  
+          .date {
+            font-size: 13px;
+            color: #bbb;
+            margin-bottom: 8px;
+          }
+  
+          .description {
+            font-size: 18px;
+            color: #999;
+            margin-bottom: 12px;
+            font-weight: 300;
+          }
+  
+          .location {
+            font-size: 16px;
+            color: #bbb;
+
+          }
+        }
+      }
+    }
+  }
+  
